@@ -1,9 +1,27 @@
 aid: gostudent
 name: GoStudent
-description: 'GoStudent is a company surfaced as a portfolio company of softbank-vision-fund, speedinvest
-  and added to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'GoStudent is an online tutoring platform headquartered in Vienna, Austria,
+  offering personalized one-on-one lessons across 30+ subjects for K-12 and university
+  students. Founded in 2016, it matches learners with vetted tutors and delivers lessons
+  through its own video-classroom apps for iOS, Android, and web, sold as a monthly
+  subscription. Backed by SoftBank Vision Fund and Speedinvest, GoStudent grew into
+  one of Europe''s largest edtech companies and has acquired peers including Tus Media,
+  Seneca Learning, and Studienkreis. GoStudent does not currently publish a public
+  developer API, OpenAPI specification, or developer portal; this profile captures
+  its public web properties and domain-security posture as a network lead.'
 url: https://raw.githubusercontent.com/api-evangelist/gostudent/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.gostudent.org/f/192322/1200x630/b636f3244c/og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,13 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Edtech
+- Tutoring
+- Education
+- Online Learning
+- E-Learning
+- Subscription
+- Europe
 apis: []
+common:
+- type: DomainSecurity
+  url: security/gostudent-domain-security.yml
+- type: Website
+  url: https://www.gostudent.org/
+- type: Blog
+  url: https://www.gostudent.org/en-gb/blog
+- type: Support
+  url: https://www.gostudent.org/en-gb/faq/
+- type: About
+  url: https://www.gostudent.org/en-gb/about-us/
+- type: PrivacyPolicy
+  url: https://www.gostudent.org/en-gb/privacy-policy/
+- type: TermsOfService
+  url: https://www.gostudent.org/en-gb/terms-conditions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
